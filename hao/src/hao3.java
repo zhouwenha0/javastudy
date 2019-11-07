@@ -4,6 +4,15 @@ public class hao3 {
         int month;//年龄 int类型默认值0
         double weight;//体重double类型默认值0.0
         String species;//品种
+    public hao3(){
+        System.out.println("我是无参构造方法");
+    }
+    public hao3(String name,int month,double weight,String species){
+          this.name=name;
+          this.month=month;
+          this.weight=weight;
+          this.species=species;
+    }
         //跑动的方法
         public void run(){
             System.out.println("小猫快跑");

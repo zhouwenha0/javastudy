@@ -14,5 +14,10 @@ public class hao3test {
         System. out. println("体重:"+one.weight);
         System. out . println("品种:"+one.species);
         one.run(one.name);
+        hao3 two=new hao3("花",3,900,"英长");
+        System. out. println("昵称: "+two.name);
+        System. out . println("年龄:"+two.month);
+        System. out. println("体重:"+two.weight);
+        System. out . println("品种:"+two.species);
     }
 }
